@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleava.css">
+    <title>CADASTRO</title>
+    
+</head>
+<body>
+    <section>
+        <form method="post" action="content/texto.php"> 
+            <header>
+                <h1>Avaliação da MARA S2</h1>
+            </header>
+            <div>
+                <p>
+                    <label>Data de hoje</label>
+                    <input name="data" required="required" type="date" />
+                </p>
+            </div>
+            <div>
+                <p>
+                    <label>Avaliação de Hoje</label>
+                    <input name="avaliacao" required="required" type="number" placeholder="0-10" />
+                </p>
+            </div> 
+            <div>
+                <p>
+                    <label>Em Poucas Palavras me Conte Sobre o Seu Dia</label>
+                    <textarea name="hoje" rows="10" cols="30" required="required">
+                        The cat was playing in the garden.</textarea>
+                </p>
+            </div> 
+            <div>
+                <p>
+                    <label>Agora me Fale Sobre a Semana (Apenas Segunda)</label>
+                    <textarea name="semana" rows="10" cols="30" ></textarea>
+                </p>
+            </div>
+            <div id="botao">
+                <p>
+                    <input type="submit" value="Enviar!" />
+                </p>
+            </div>
+        </form>
+    </section>
+</body>
+</html>

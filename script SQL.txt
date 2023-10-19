@@ -1,0 +1,18 @@
+create table 4 samy;
+
+CREATE TABLE Usuario(
+                                    Cod_usuario Int Primary key auto_increment,
+                                    Usuario Varchar(50) Unique,
+                                    Senha Varchar(20),
+                                    Nivel Int
+                                   );
+
+
+
+CREATE TABLE mara(
+                                     
+                                     data date,
+                                     avaliacao int,
+    								 hoje varchar(500),
+     								 semana varchar (500)
+                                    );
